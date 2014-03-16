@@ -8,4 +8,9 @@
 var express = require("express");
 /*Creando un server https*/
 var app = express("http");
+/*El server http va escuchar en el puerto 6969 y se va ejecutar una función cuando logre hacerlo*/
+app.listen(6969,function(){
+	/*Muestra en consola que si se escucho en el puerto 6969*/
+	console.log("Se esta escuchando en el puerto 6969");
+});
 /* ........................ */
