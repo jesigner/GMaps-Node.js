@@ -1,0 +1,110 @@
+*{
+	text-align: left;
+	margin: 0px;
+	font: normal normal 10px/1.5 Arial,Verdana;
+}
+body{
+	background-color: #1E0202;
+}
+#allContent{
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: rgba(0,0,0,.2) 0px 0px 10px;
+	margin: 30px auto;
+	background:#412222;
+	width: 960px;
+	box-sizing: border-box;
+}
+	#headMarket{
+		background: transparent;
+		margin: 0px 0px 20px 0px;
+		border-radius: 5px;
+		border-bottom: #1E0202 1px solid;
+		color: #1E0202;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+	#footMarket{
+		margin: 20px 0px 0px 0px;
+		border-radius: 5px;
+		padding: 5px;
+		border-top: #1E0202 1px solid;
+		color:  #1E0202;
+		text-align: center;
+		font-size: 9px;
+		box-sizing: border-box;
+		font-weight: bolder;
+	}
+		#headMarket h1{
+		    text-align: center;
+		    font-size: 20px;
+		    font-weight: bolder;
+		    margin: 0 auto;
+		}
+
+	#contentForm{
+		width: 150px;
+	}
+		#form{
+			padding: 5px;
+		}
+		#form label,input,select{
+			border: none;
+			display: block;
+			margin: 3px;
+		}
+		#form input,select{
+			box-shadow: rgba(0,0,0,.2) 0px 0px 10px;
+		    border-radius: 3px;
+		    padding: 5px;
+		}
+		#form input[type="text"]{
+			width: 100px;
+		}
+		#form input[type="button"]{
+			background: #1E0202;
+			width: 50px;
+			color: white;
+			font-weight: bolder;
+			text-align: center;
+		}
+	#contentMap{
+		width: 760px;
+	}
+	#canvasZoneMap{
+		border: #1E0202 10px solid;
+		margin: 0 auto;
+		width: 750px;
+		height: 400px;
+		box-sizing:border-box;
+	}
+
+	.content{
+		background: rgba(255,255,255,0.5);
+		display: inline-block;
+		margin: 5px;
+		padding: 5px;
+		box-shadow: rgba(0,0,0,.2) 0px 0px 10px;
+		border: #1E0202 1px solid;
+		border-radius: 5px;
+		box-sizing: border-box;
+
+	}
+		.footContent{
+			border-top: #1E0202 1px solid;
+			background: transparent;
+			padding: 2px;
+			margin: 5px 0px 0px 0px;	
+			color: #412222;
+		}
+		.headContent{
+			border-bottom: #1E0202 1px solid;
+			background: transparent;
+			padding: 5px;
+			margin: 0px 0px 5px 0px;	
+			color: #412222;
+		}
+		.headContent h1{
+			font-size: 12px;
+			font-weight: bolder;
+		}
