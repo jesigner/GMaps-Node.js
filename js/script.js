@@ -1,4 +1,3 @@
-
 $(document).on("ready",start);
 function start(){
         $("#Submit").on("submit",function(e){e.preventDefault();});
@@ -13,8 +12,10 @@ function viewMap(){
         $('#canvasZoneMap').gmap('getCurrentPosition', function(position, status) {
             if ( status === 'OK' ){
                 var clientPosition = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                var lat = position.coords.latitude;
+                var lon = position.coords.longitude;
                 //Show object data
-                alert(clientPosition);
+                alert("Altitud : " + lat + "/n Longitud : "+ lon);
                 /*$('#canvasZoneMap').gmap('addMarker',{
                     'position': clientPosition, 
                     'bounds': true
